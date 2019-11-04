@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card-title {
+  display: inline;
+  font-size: 2rem;
+  margin-left: .3em;
+  margin-right: .3em;
+  background-color:	rgb(112,112,112);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card-label {
+  position: absolute;
+  left: .5em;
+  bottom: 0;
+}
+.card {
+  position: relative;
+}
