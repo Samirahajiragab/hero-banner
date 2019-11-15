@@ -23,25 +23,31 @@ body {
   position: relative;
   max-height: 500px;
   overflow: hidden;
-  justify-content: center;
+  text-align: left;
 }
 
-h2 {
-  display: inline;
-  max-height: 2em;
-  font-size: 4rem;
+.banner-content {
+  margin: 0;
   position: absolute;
-  bottom: 2em;
-  left: 05%;
-  background-color: rgb(112, 112, 112);
+  bottom: 0;
+  left: 50%;
+  top: 37%;
+  transform: translateX(-50%);
+  max-width: 50em;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.banner-content h2 {
+  display: inline;
+  font-size: 4rem;
+  line-height: 1.4em;
+  background-color: rgba(0, 0, 0, .5);
   color: #fff;
 }
 
-p {
-  margin: 0;
-  padding: 0;
+.banner-content p {
   font-size: 2rem;
-  position: absolute;
-  bottom: 1em;
-  left: 05%;
+  margin: 0;
+  margin-top: 1rem;
 }
