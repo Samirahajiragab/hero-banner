@@ -1,32 +1,45 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 .img-flex {
   display: block;
   width: 100%;
 }
-
-.card-title {
-  display: inline;
-  font-size: 2rem;
-  margin-left: .3em;
-  margin-right: .3em;
-  background-color:	rgb(112,112,112);
-  color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.card-label {
-  position: absolute;
-  left: .5em;
-  bottom: 0;
-}
-.card {
+.banner {
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 2em;
+  left: 05%;
+  max-height: 1.8;
+  background-color:	rgb(112,112,112);
+  display: inline;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 1em;
+  left: 05%;
 }
