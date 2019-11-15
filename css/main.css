@@ -29,9 +29,8 @@ body {
 .banner-content {
   margin: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 1.5rem;
   left: 50%;
-  top: 37%;
   transform: translateX(-50%);
   max-width: 50em;
   padding: 0 1.5rem;
